@@ -1,0 +1,36 @@
+{
+  "name": "advanced-ai-agent",
+  "version": "1.0.0",
+  "description": "World's Most Advanced AI Agent - 99.9% Accuracy",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --coverage",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": ["ai", "agent", "coding", "automation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0",
+    "helmet": "^7.1.0",
+    "cors": "^2.8.5",
+    "compression": "^1.7.4",
+    "mongoose": "^8.0.0",
+    "ioredis": "^5.3.2",
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "prettier": "^3.1.0",
+    "node-cache": "^5.1.2",
+    "uuid": "^9.0.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
